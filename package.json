@@ -1,0 +1,19 @@
+{
+  "name": "@bigtest/example",
+  "version": "1.0.0",
+  "description": "An example application using bigtest",
+  "main": "index.js",
+  "repository": "https://github.com/cowboyd/bigtest-example",
+  "author": "Charles Lowell <cowboyd@frontside.io>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "bigtest-todomvc 3000",
+    "test": "node ./bin/test.js"
+  },
+  "devDependencies": {
+    "@bigtest/server": "^0.1.0",
+    "@bigtest/suite": "^0.1.0",
+    "@bigtest/todomvc": "^0.1.0"
+  }
+}
