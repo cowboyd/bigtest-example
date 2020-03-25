@@ -12,7 +12,7 @@
     "test": "node ./bin/test.js"
   },
   "devDependencies": {
-    "@bigtest/server": "^0.1.0",
+    "@bigtest/server": "^0.1.1",
     "@bigtest/suite": "^0.1.0",
     "@bigtest/todomvc": "^0.1.0"
   }
