@@ -12,8 +12,10 @@
     "test": "node ./bin/test.js"
   },
   "devDependencies": {
+    "@bigtest/effection": "^0.1.1",
     "@bigtest/server": "^0.1.1",
     "@bigtest/suite": "^0.1.0",
-    "@bigtest/todomvc": "^0.1.0"
+    "@bigtest/todomvc": "^0.1.0",
+    "@effection/node": "^0.5.2"
   }
 }
