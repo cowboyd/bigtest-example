@@ -14,9 +14,8 @@ jobs:
         package: [cra, todomvc]
     steps:
       - uses: actions/checkout@v1
-      - name: CD into ${{ matrix.package }}
-        run: cd ${{ matrix.package }}
-      - name: Install dependencies
-        run: yarn
-      - name: Run tests
-        run: yarn test
+      - name: cd, yarn, test
+        run: |
+          cd ${{ matrix.package }}
+          yarn
+          yarn test
