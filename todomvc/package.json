@@ -6,7 +6,7 @@
   "repository": "https://github.com/cowboyd/bigtest-example",
   "author": "Charles Lowell <cowboyd@frontside.io>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "bigtest-todomvc 3000",
     "test": "node ./bin/test.js"

@@ -1,7 +1,7 @@
 {
-  "name": "@bigtest/example-signin",
+  "name": "@bigtest/example-cra",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",

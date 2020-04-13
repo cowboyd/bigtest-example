@@ -1,23 +1,10 @@
 {
-  "name": "@bigtest/examples-monorepo",
-  "version": "0.0.0-examples-monorepo",
+  "name": "@bigtest/examples",
+  "version": "0.0.0-examples",
   "description": "An example application using bigtest",
   "main": "index.js",
   "repository": "https://github.com/cowboyd/bigtest-example",
   "author": "Charles Lowell <cowboyd@frontside.io>",
   "license": "MIT",
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
-  "scripts": {
-    "clean": "git clean -dxf",
-    "test": "yarn workspaces run test"
-  },
-  "volta": {
-    "node": "12.11.1",
-    "yarn": "1.22.4"
-  }
+  "private": true
 }
