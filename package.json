@@ -1,6 +1,6 @@
 {
-  "name": "@bigtest/example-monorepo",
-  "version": "0.0.0-example-monorepo",
+  "name": "@bigtest/examples-monorepo",
+  "version": "0.0.0-examples-monorepo",
   "description": "An example application using bigtest",
   "main": "index.js",
   "repository": "https://github.com/cowboyd/bigtest-example",
@@ -14,8 +14,7 @@
   },
   "scripts": {
     "clean": "git clean -dxf",
-    "test": "yarn workspaces run test",
-    "start": "yarn workspaces run start"
+    "test": "yarn workspaces run test"
   },
   "volta": {
     "node": "12.11.1",
