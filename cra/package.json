@@ -11,7 +11,8 @@
     "@bigtest/suite": "^0.1.0"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "test": "echo No test script in CRA"
   },
   "eslintConfig": {
     "extends": "react-app"

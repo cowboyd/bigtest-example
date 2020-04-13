@@ -1,0 +1,22 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    name: ${{ matrix.package }}
+    strategy: 
+      matrix:
+        package: [cra, todomvc]
+    steps:
+      - uses: actions/checkout@v1
+      - name: CD into ${{ matrix.package }}
+        run: cd ${{ matrix.package }}
+      - name: Install dependencies
+        run: yarn
+      - name: Run tests
+        run: yarn test
