@@ -13,8 +13,8 @@
     "test:server": "bigtest server"
   },
   "devDependencies": {
-    "@bigtest/cli": "^0.1.1",
-    "@bigtest/todomvc": "^0.1.0",
+    "@bigtest/cli": "^0.4.0",
+    "@bigtest/todomvc": "^0.4.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
