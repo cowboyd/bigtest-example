@@ -1,26 +1,13 @@
-import { TestImplementation } from '@bigtest/suite';
+import { test } from '@bigtest/suite';
+import { strict as assert } from 'assert';
 
-const test: TestImplementation = {
-  description: "TodoMVC",
-  steps: [],
-  assertions: [],
-  children: [{
-    description: "When page is initially opened",
-    steps: [],
-    assertions: [{
-      description: "it focuses on the todo input field",
-      check() {
-        let input = document.querySelector<HTMLInputElement>("[placeholder='What needs to be done?]");
-        if (!input) {
-          throw new Error('Cannot find TODO input element');
-        }
-        if (document.activeElement != input) {
-          throw new Error(`Expected ${input} to have focus, but it did not. Instead, it was ${document.activeElement}`);
-        }
-      }
-    }],
-    children: []
-  }]
-}
+export default test("TodoMVC")
+  .child("When page is initially opened", test => test
+    .assertion("it focuses on the todo input field", () => {
+      // let input = document.querySelector<HTMLInputElement>("[placeholder='What needs to be done?]");
 
-export default test;
+      // assert(input, 'Cannot find TODO input element');
+      // assert.equal(document.activeElement, input,
+      //   `Expected ${input} to have focus, but it did not. Instead, it was ${document.activeElement}`);
+    })
+  );

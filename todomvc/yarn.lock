@@ -884,10 +884,10 @@
     "@effection/events" "^0.6.1"
     ramda "0.27.0"
 
-"@bigtest/cli@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/cli/-/cli-0.4.0.tgz#2d3445a7b870d9ed312236c7761245a15d947a98"
-  integrity sha512-SvxxNVTlJpmoSWq2n03kQEFK9Yv6ky2LRlreNDIsmRdBmTXv33RVHA063pprgvHITEvOLQhcWFHu290uPJT/lw==
+"@bigtest/cli@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bigtest/cli/-/cli-0.4.1.tgz#fc4948432048ba0c57f5e1d7450e8f0729df8a54"
+  integrity sha512-KOnSEvLQLxhEcGCOyss0O/+1qupr8UfqTsYvgjn0SFdSX4hI66+i4Evvb661ytHEbobzyNbQkRxvrfJ+4INrgw==
   dependencies:
     "@bigtest/effection" "^0.4.0"
     "@bigtest/project" "^0.4.0"
@@ -972,20 +972,20 @@
     websocket "^1.0.30"
     yargs "^15.0.2"
 
-"@bigtest/suite@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/suite/-/suite-0.1.0.tgz#4fb1500830dadf08744cd8cff649029de499ff2d"
-  integrity sha512-Gl5QWZ1hmW7gVgYZUcqhX1KlsY/+SeL+VyMJ77xKwlddphBY7qe2errThoyw5fnhIajkM3t/5kmHh9X3++7AwA==
-
 "@bigtest/suite@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@bigtest/suite/-/suite-0.4.0.tgz#729ad5593c4b9db982b3cfea6e958e417296baf7"
   integrity sha512-PWIiIZcK0xmAu7oZlqIrHwRke/lUcfPTmz0GO1H4RJ2yoGynN2r+pNVkI/kD4YlDP7dNMXVmWjGJOiT+eBh/3A==
 
-"@bigtest/todomvc@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/todomvc/-/todomvc-0.4.0.tgz#5a533602828d6a9abadcad0c97a55fbea0bad221"
-  integrity sha512-jVgYz/IVgE8GugLEBo02/xrhZCS6raPhUFmoTKvoIdQtkqw4P13Qm0p5y1KqPCq1GJwpwGXMrzIAFWkJTLYDGA==
+"@bigtest/suite@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bigtest/suite/-/suite-0.4.1.tgz#7a0e9b98a373967eb047da839f8280e1d9b29713"
+  integrity sha512-lIsNkJY33wPdJNe37GbnrCxYy2CMeUuv0+YCqn4FpbHreGLwIRDOsYhIlwQLE6+17HWaGGRJqldWgy3rPs1SSQ==
+
+"@bigtest/todomvc@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@bigtest/todomvc/-/todomvc-0.4.1.tgz#6fac987e1a3fd81b267e710c0f9558b4693ceb95"
+  integrity sha512-c3YvK5xwsdOyrdYqcCSjGweUvR8rEEE6vcWpsPdbc69E7Sze+r4SeJv1GtmFfdGQmoggiYn6Ao9Qf75yGQgLBA==
   dependencies:
     "@bigtest/effection-express" "^0.4.0"
     "@effection/node" "^0.6.2"
