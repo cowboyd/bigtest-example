@@ -14,8 +14,9 @@
   },
   "devDependencies": {
     "@bigtest/cli": "^0.4.1",
-    "@bigtest/todomvc": "^0.4.1",
     "@bigtest/suite": "^0.4.1",
-    "typescript": "^3.8.3"
+    "@bigtest/todomvc": "^0.4.1",
+    "typescript": "^3.8.3",
+    "regenerator-runtime": "^0.13.5"
   }
 }
