@@ -1,0 +1,8 @@
+{
+  "app": {
+    "command": "bigtest-todomvc 36000",
+    "port": 36000
+  },
+  "files": "test/**/*.test.{ts,js}",
+  "launch": ["chrome"]
+}
