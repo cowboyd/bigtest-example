@@ -18,5 +18,10 @@
     "@bigtest/todomvc": "^0.4.1",
     "typescript": "^3.8.3",
     "regenerator-runtime": "^0.13.5"
+  },
+  "resolutions": {
+    "@bigtest/**/@bigtest/agent": "0.4.1-f5c04ce",
+    "@bigtest/**/@bigtest/server": "0.4.1-f5c04ce",
+    "@bigtest/**/@bigtest/suite": "0.4.1-f5c04ce"
   }
 }

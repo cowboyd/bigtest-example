@@ -865,10 +865,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bigtest/agent@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/agent/-/agent-0.4.0.tgz#1cc0ff862e1dfdb1df9552f732f43f57a6ccc264"
-  integrity sha512-qGuFLSKHAK8iiwgBxVqT39iEErTnf+szQwQLymVHRernh4tv631qJ47L3cIR4UDHcgCdr3WkQcfVEYZlUvtghw==
+"@bigtest/agent@0.4.1-f5c04ce", "@bigtest/agent@^0.4.0":
+  version "0.4.1-f5c04ce"
+  resolved "https://registry.yarnpkg.com/@bigtest/agent/-/agent-0.4.1-f5c04ce.tgz#21223f8f53148947b46f7a9d44a2d2b286ce01fa"
+  integrity sha512-EvIciv7FI38VuMq6djo5CtEldDTHFi94tawZVgd6eqCWFdMhHifP+Ki8F/ntIC6TbTMLwWhgFYkuXioFyRTSvA==
   dependencies:
     "@bigtest/effection" "^0.4.0"
     "@effection/events" "^0.6.1"
@@ -937,10 +937,10 @@
   resolved "https://registry.yarnpkg.com/@bigtest/project/-/project-0.4.0.tgz#f471aa8550550d4cfd2a1354b643d786ebd6a93e"
   integrity sha512-xqEdKQbJ8IYuuquF22AYfQ9+t5gwEimbdBP+0HjUC+EjFfWVk5hJaqTA4bydutIjzTAWLfklRq/I2C0R9ooRVg==
 
-"@bigtest/server@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/server/-/server-0.4.0.tgz#5e7942ade7cb8681e984c36856aa37fd3da9c040"
-  integrity sha512-qwSv79hFMmK0WMOQRJ737V9pDVjnOMKHjCYXKMpy239ObxPgnLXv1iIClpAlPrZMtLTCY8QKvhKsbt3ErW/XSA==
+"@bigtest/server@0.4.1-f5c04ce", "@bigtest/server@^0.4.0":
+  version "0.4.1-f5c04ce"
+  resolved "https://registry.yarnpkg.com/@bigtest/server/-/server-0.4.1-f5c04ce.tgz#e753e5c3401fe4b4aeb64674bae1856b2dcb9d83"
+  integrity sha512-46OaJF4sqFf5P86hhundK89PBuUVHlfx9gr/dIaolwnqD1PZSXisMwduxdd2zId5VGYdtttlZgH53S0ppCfJZA==
   dependencies:
     "@babel/core" "^7.0.0-0"
     "@babel/plugin-transform-runtime" "7.8.3"
@@ -972,10 +972,10 @@
     websocket "^1.0.30"
     yargs "^15.0.2"
 
-"@bigtest/suite@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@bigtest/suite/-/suite-0.4.0.tgz#729ad5593c4b9db982b3cfea6e958e417296baf7"
-  integrity sha512-PWIiIZcK0xmAu7oZlqIrHwRke/lUcfPTmz0GO1H4RJ2yoGynN2r+pNVkI/kD4YlDP7dNMXVmWjGJOiT+eBh/3A==
+"@bigtest/suite@0.4.1-f5c04ce", "@bigtest/suite@^0.4.0":
+  version "0.4.1-f5c04ce"
+  resolved "https://registry.yarnpkg.com/@bigtest/suite/-/suite-0.4.1-f5c04ce.tgz#8861f9c6604a7a0268cfa489830c2b46e10fa4b7"
+  integrity sha512-6vCOW9lsxjkGPvFC47ullNr6zMep6LMQW1j6W7KP3Qw0uxAcDqf9g96ChKBbUUAJvNZpn8bcwzMY3iz3FcLFgQ==
 
 "@bigtest/suite@^0.4.1":
   version "0.4.1"
