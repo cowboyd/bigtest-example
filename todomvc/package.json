@@ -13,10 +13,13 @@
     "test:server": "bigtest server"
   },
   "devDependencies": {
-    "@bigtest/cli": "^0.4.1",
-    "@bigtest/suite": "^0.4.1",
-    "@bigtest/todomvc": "^0.4.1",
-    "typescript": "^3.8.3",
-    "regenerator-runtime": "^0.13.5"
+    "@bigtest/cli": "^0.6.1",
+    "@bigtest/suite": "^0.5.2",
+    "@bigtest/todomvc": "^0.5.2",
+    "regenerator-runtime": "^0.13.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@bigtest/interactor": "^0.12.0"
   }
 }
