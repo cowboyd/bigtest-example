@@ -4,5 +4,5 @@
     "port": 36000
   },
   "files": "test/**/*.test.{ts,js}",
-  "launch": ["chrome"]
+  "launch": ["chrome.headless"]
 }
