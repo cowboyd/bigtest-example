@@ -13,13 +13,9 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
-    "@bigtest/cli": "^0.6.1",
-    "@bigtest/suite": "^0.5.2",
-    "@bigtest/todomvc": "^0.5.2",
+    "@bigtest/todomvc": "^0.5.4",
+    "bigtest": "^0.2.2",
     "regenerator-runtime": "^0.13.5",
     "typescript": "^3.8.3"
-  },
-  "dependencies": {
-    "@bigtest/interactor": "^0.12.0"
   }
 }
